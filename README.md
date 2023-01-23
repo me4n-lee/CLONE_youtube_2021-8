@@ -1,4 +1,4 @@
-# 📌 KakaoTalk
+# 📌 Youtube
 ### _프로젝트 기간 : ~2021/8_
 ### _keyword_
 - Pug, MongoDB, Heroku
