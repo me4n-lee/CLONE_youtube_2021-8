@@ -1,22 +1,29 @@
 # 📌 KakaoTalk
-### _프로젝트 기간 : ~2021/5_
+### _프로젝트 기간 : ~2021/8_
 ### _keyword_
-- 순수 Html, 순수 Css
+- Pug, MongoDB, Heroku
 ### _의도_
-- 기본 Html, Css 조작을 통해 파일간 구조, 폴더 구조에 대해 공부하기 위함
+- pug와 babel을 활용해 html을 대체하는 방법 학습
+- 영상자료 저장과 입력, 활용하는 방법을 익히기 위함
 - mark-up 에 대한 숙련도 향상을 위함
+- mongoose를 통해 mongoDB에 대한 개념과, 구현을 익히기 위함
+- heroku 사용법을 익히기 위함
 ### _사용 스택_
-- `#Html` 
-- `#Css`
+- `#Javascript` 
+- `#Css` -> scss
+- `#Pug` -> babel, nodemon
+- `#MongoDB` -> mongoose
+- `#Express`
 - `#Gh-pages`
+- `#heroku`
 ### _주요기능 및 설명_
-- frontend : Html, Css
-- backend : 
-- etc : Gh-pages
-- 순수 html을 사용하여, 파일과 파일간의 관계를 표현함 
-- html을 활용해 다양한 파일 구조, 프론트 형식을 표현함(화면크기에 따른 다른 결과 출력, 덮어지는 형식의 페이지등)
-- 순수 css를 활용해, 기초적인 디자인이나 애니메이션을 구현함
-- Github pages를 활용해 결과물 배포
+- frontend : Html, Scss, pug, vanila.js
+- backend : node.js , mongoDB, express
+- etc : Gh-pages, heroku
+- 영상 재생, 댓글 추가, 동영상 검색등의 기능을 구현
+- 로그인 페이지를 제작해 가입과 로그인이 가능하도록 했음, git RestAPI를 활용해 인증, 로그인을 구현
+- mongoDB, express 를 활용해 데이터베이스와 백엔드 구현
+- heroku, Github pages를 활용해 결과물 배포
 ### _결과물_
 - Github pages로 배포 완료 -> [gh-pages](https://me4n-lee.github.io/CLONE_kakaoTalk_2021-5)
 - 파일 경로
@@ -34,6 +41,8 @@
     + /videos/:id/edit -> Edit Video
     + /videos/:id/delete -> Delete Video
     + /videos/upload -> Upload Video
+- heroku로 배포 완료 ->
+-2022/11 추가사항 : hereku 결제 이슈로 구현된 페이지가 출력되고 있지 않습니다. 코드상으로는 이상 없으나, 아직 해결책을 찾지 못했습니다. 현재 mongoDB, heroku의 기능 확인은 불가능한 상태 입니다. 이슈 수정하는대로 커밋 하겠습니다.
 
 <br/>
 
