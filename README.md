@@ -9,7 +9,7 @@
 - mongoose를 통해 mongoDB에 대한 개념과, 구현을 익히기 위함
 - heroku 사용법을 익히기 위함
 ### _사용 스택_
-- `#Javascript` 
+- `#Javascript` -> node.js
 - `#Css` -> scss
 - `#Pug` -> babel, nodemon
 - `#MongoDB` -> mongoose
@@ -40,7 +40,7 @@
     + /videos/:id/edit -> Edit Video
     + /videos/:id/delete -> Delete Video
     + /videos/upload -> Upload Video
--2022/11 추가사항 : hereku 결제 이슈로 구현된 페이지가 출력되고 있지 않습니다. 코드상으로는 이상 없으나, 아직 해결책을 찾지 못했습니다. 현재 mongoDB, heroku의 기능 확인은 불가능한 상태 입니다. 이슈 수정하는대로 커밋 하겠습니다. (사진 파일은 관리자페이지로 업로드되었습니다.)
+- 2022/11 추가사항 : hereku 결제 이슈로 구현된 페이지가 출력되고 있지 않습니다. 코드상으로는 이상 없으나, 아직 해결책을 찾지 못했습니다. 현재 mongoDB, heroku의 기능 확인은 불가능한 상태 입니다. 이슈 수정하는대로 커밋 하겠습니다. (사진 파일은 관리자페이지로 업로드되었습니다.)
 
 <br/>
 
